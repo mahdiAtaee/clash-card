@@ -266,6 +266,8 @@ body {
     color: #fff;
 }
 
+
+
 .next::after {
     content: '>';
 }

@@ -7,7 +7,6 @@ export default function Body({ level, name, description }) {
             <CardItem type="clash-card__level clash-card__level--barbarian">{level}</CardItem>
             <CardItem type="clash-card__unit-name">The {name}</CardItem>
             <CardItem type="clash-card__unit-description">{description}</CardItem>
-
         </>
     )
 }

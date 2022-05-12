@@ -13,7 +13,7 @@ export default function Card({ hero }) {
         name={hero.name}
         description={hero.description}
       />
-      <Buy name={hero.name} />
+      <Buy name={hero.name} id={hero.id} />
       <Footer units={hero.units} name={hero.name} />
     </div>
   );

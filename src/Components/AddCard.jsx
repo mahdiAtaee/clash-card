@@ -15,19 +15,19 @@ export default function AddCard() {
     }, 2000);
   }
 
-  useEffect(() => {
-    console.log("Effect");
-  });
+  // useEffect(() => {
+  //   console.log("Effect");
+  // });
 
   return (
     <div className="wrapper-count">
-      <span className="plus" onClick={Increment}>
+      <button className="plus" onClick={Increment}>
         +
-      </span>
+      </button>
       <span className="Number">{count}</span>
-      <span className="minus" onClick={Decrement}>
+      <button className="minus" onClick={Decrement}>
         -
-      </span>
+      </button>
     </div>
   );
 }

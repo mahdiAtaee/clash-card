@@ -24,6 +24,9 @@
       "react-app/jest"
     ]
   },
+  "keywords":[
+  "carousel","slider","react"
+  ],
   "browserslist": {
     "production": [
       ">0.2%",
